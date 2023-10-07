@@ -91,15 +91,13 @@ class FileConcate:
     def runAll(self):
         self.file_concate()
 
-
-sample_path_file = '/mnt/hdd/usr/jiaohuanmin/home/jiaohm/data/zhfeng/sample_path_list_0926.txt'
-target_path = 'fragment_study/mis_10_splitedBy135'
-specific_path = 'depth_file'
-file_name = 'depth_stat_LS135_ratio_230926.csv'
-tmp_file_name = 'depth_stat_LS135_cunt_230926.csv'
-zfile_name = 'depth_stat_LS135_zfsd_230926.csv'
-
 if __name__ == '__main__':
+    sample_path_file = '/mnt/hdd/usr/jiaohuanmin/home/jiaohm/data/zhfeng/sample_path_list_0926.txt'
+    target_path = 'fragment_study/mis_10_splitedBy135'
+    specific_path = 'depth_file'
+    file_name = 'depth_stat_LS135_ratio_230926.csv'
+    tmp_file_name = 'depth_stat_LS135_cunt_230926.csv'
+    zfile_name = 'depth_stat_LS135_zfsd_230926.csv'
     concating_file = FileConcate(sample_path_file, target_path, specific_path,
                                 tmp_file_name, file_name,zfile_name)
     concating_file.runAll()

@@ -1,2 +1,2 @@
 # fragment_study
-feature extraction methdods and codes
+Features extraction methdods and codes of fragment study 
